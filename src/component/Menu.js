@@ -43,7 +43,7 @@ const Menu = () => {
   return (
     <div className="w-full h-full flex  justify-center items-center ">
       <div className="max-w-[1240px] h-full w-full ">
-        <div className="shadow-md px-3 w-[1000px] h-[140px]  mt-[80px] ml-[170px] ">
+        <div className="shadow-md px-3 md:w-[1000px] md:h-[140px] w-[400px]  md:mt-[80px] mt-[50px] md:ml-[170px] mx-4 ">
           <h1 className="font-bold text-2xl">{name}</h1>
           <p className="mt-3">
             {cuisines.join(", ")} - {costForTwoMessage}
